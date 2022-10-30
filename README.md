@@ -1,2 +1,2 @@
 # springboot-kafka
-An example application Kafka producer and consumer using spring boot
+An example application of Kafka producer and consumer using spring boot
