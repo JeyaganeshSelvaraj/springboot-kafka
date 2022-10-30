@@ -1,0 +1,30 @@
+{
+  "type" : "record",
+  "name" : "SaleEvent",
+  "namespace" : "com.example.kafkaexample.model",
+  "fields" : [ {
+    "name" : "itemId",
+    "type" : {
+      "type" : "int",
+      "java-class" : "java.lang.Integer"
+    }
+  }, {
+    "name" : "quantity",
+    "type" : {
+      "type" : "int",
+      "java-class" : "java.lang.Integer"
+    }
+  }, {
+    "name" : "saleDate",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "sellerID",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "unitPrice",
+    "type" : {
+      "type" : "double",
+      "java-class" : "java.lang.Double"
+    }
+  } ]
+}
